@@ -1,0 +1,13 @@
+#blink {
+text-align:center;
+background:#000000;
+color:#F00;
+margin: 0;
+padding:20px;
+}
+
+#blink span {
+font-size:2em;
+font-weight:bold;
+display:block;
+}

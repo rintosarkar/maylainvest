@@ -1,0 +1,590 @@
+*{
+		margin: 0 auto;
+	}
+
+	.clear{
+    	clear: both;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+
+	/* Document level adjustments */
+html {
+  font-size: 17px;
+  font-family: raleway, 'Oswald', sans-serif;
+}
+@media (max-width: 900px) {
+  html { font-size: 15px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 13px; }
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1em;
+}
+
+
+/*style for Languages Droodown*/
+
+	.language{
+		position: absolute;
+		left: 10px;
+		/*background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;*/
+		/*height: 2rem;*/
+	  	/*overflow: hidden;*/
+	  	/*width: 240px;*/
+	  	/*float: left;*/
+	  	margin-top: 30px;
+	}
+
+	language select {
+	   background: transparent;
+	   border: none;
+	   font-size: .75rem;
+	   height: 29px;
+	   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+	   width: 268px;
+	}
+
+	language.slate {
+	   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+	   height: 34px;
+	   width: 240px;
+	}
+
+	language.slate select {
+	   border: 1px solid #ccc;
+	   font-size: 1rem;
+	   height: 34px;
+	   width: 268px;
+	}
+
+	/*===============================*/
+
+	.header{
+
+	}
+
+	.header_text{
+		float: left;
+		position: relative;
+		left: 180px;
+		text-align: center;
+		
+	}
+
+	.header_text h1{
+		text-align: center;
+		color: blue;
+		padding-left: 80px;
+		padding-right: 80px;
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+
+	.logosImg{
+		width: 263px;
+		left: 300px;
+		top: -200px;
+	}
+
+	.mayla-logo{
+		position: relative;
+		left: 40px;
+		top: 20px;
+		/*width: 100px;*/
+		/*background-image: url(images/logo.png);*/
+		}
+
+	.logo-img{
+		position: relative;
+
+	}
+
+/*======================Header End==================*/
+
+	.hr-menu{
+		/*margin-top: 110px;*/
+		/*position: fixed;*/
+		position: absolute;
+		top:120px;
+		width: 100%;
+		height: 40px;
+		background-color: #000078;
+		float: left;
+	}
+	.menus{
+		margin-left: 350px;
+		padding-top: 7px;
+		color: #fff;
+	}
+
+	.menus a{
+		/*padding-right: 10px;*/
+	}
+
+	.li{
+		border-bottom: 1px solid #fff;
+		margin-left: -40px;
+		padding-left: 40px;
+	}
+
+	.li:hover{
+		background-color: #ffae00;
+		color: #000 !important;
+		padding-left: 40px;
+		margin-left: -40px;
+	}
+
+
+	a{
+		text-decoration:none;
+		font-size: .9rem;
+		color: white;
+	}
+
+	a:link { 
+	  color: #fff;
+	}
+	a:visited {
+	  color: white;
+	}
+	a:hover {
+	  color: red;
+	}
+	a:active {
+	  color: red;
+	}
+
+/*=================================================
+Style for Verticle Menu
+=================================================
+*/
+
+	.vr-menu{
+		margin-top: 95px;
+		width: 260px;
+		height: 240px;
+		border-radius: 17px;
+		background-color: #c91414;
+		position: relative;
+		bottom: 150px;
+		left: 30px;
+		float: left;
+		font-size: 10px;
+
+	}
+
+	.vr-menu > ul{
+		padding-top: 55px;
+		/*font-size: 1rem;*/
+		list-style: none;
+		
+
+	}
+	.vr-menu > li{
+		border-bottom: 1px solid #fff;
+		width: 245px;
+		
+	}
+	.vr-menu > li:hover{
+		background-color: #ffae00;
+		background-size: 245px;
+	}
+
+.mayla-slide{
+	position: relative;
+	bottom:339px;
+	left: 260px;
+	margin-left: 30px;
+	background-color: #fff;
+	float: left;
+	overflow: hidden;
+	color: white;
+	z-index: -1;
+}
+
+.header-bottom{
+	position: relative;
+	float: left;
+	bottom:360px;
+	width: 100%;
+	height: 40px;
+	background-color: #990000;
+	color: #fff;
+	text-align: center;
+	z-index: 200px;
+}
+
+.hb-text{
+	padding-top: 8px;
+}
+
+/*=======================================
+container styles start
+=======================================*/
+.container{
+	float: left;
+	position: relative;
+	width: 100%;
+	bottom:355px;
+}
+
+.left-sidebar{
+	width: 15%;
+	float: left;
+	margin-top: 10px;
+	/*position: absolute;*/
+
+}
+
+.left_barimg{
+	margin-left: 10px;
+
+}
+
+.right-side{
+	width: 82%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;	
+	position: relative;
+
+}
+
+/*==========================
+Style for Forms
+==========================*/
+
+.mainFormHeader{
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	
+}
+.formTitle{
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	font-size: 2.2rem;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+}
+
+.subFormHeader{
+	background-color: #9d9d9d;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 1.75rem;
+	color: #d8ff00;
+}
+
+.marquee-text{
+	font-size: 1.45rem;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-top: 20px;
+}
+
+label{
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	width:440px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+
+input[type=text], input[type=email]{
+	background-color: #d5eeff;
+    border: 1px solid #cee9ff;
+    color: #000000;
+    display: inline;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    height: 15px;
+    line-height: normal;
+    list-style-type: square;
+    text-transform: capitalize;
+    width: 238px;
+    word-spacing: normal;
+}
+
+input[type=radio]{
+	padding-left:20px;
+    font-size: 1rem;
+    margin-left: 90px;
+}
+
+.mayla-dropdown{
+	height:20px;
+    width:220px;
+    padding:5px 8px;
+
+}
+
+select{
+	background-color: #d5eeff;
+    border: 1px solid #cee9ff;
+    color: #000000;
+    display: inline;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    height: 20px;
+    line-height: normal;
+    list-style-type: square;
+    text-transform: capitalize;
+    width: 238px;
+    word-spacing: normal;
+}
+
+option{
+	font-size: 12px;
+}
+table{
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+td{
+	padding-left: 20px;
+	padding-top: 0px;
+}
+ /*tr:nth-child(odd) {
+    background: #eaeaea;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}*/
+
+.alignTable{
+	margin-right: 299px;
+}
+
+.submit {
+   -moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+   	-webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+   	box-shadow:inset 0px 1px 0px 0px #9acc85;
+   	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+   	background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+   	background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+   	background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+   	background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+   	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+   	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+   	background-color:#74ad5a;
+   	border:1px solid #3b6e22;
+   	display:inline-block;
+   	cursor:pointer;
+   	color:#ffffff;
+   	/*font-family:arial;*/
+   	font-size:13px;
+   	font-weight:bold;
+   	padding:1px 4px;
+   	text-decoration:none;
+   	width: 80px;
+   }
+
+.submit:hover {
+   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+	background:-moz-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-o-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-ms-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#74ad5a',GradientType=0);
+	background-color:#68a54b;
+   }
+
+.submit:active {
+   position:relative;
+	top:1px;
+   }
+
+.submit-btn{
+	position: relative;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.next-btn{
+	/*margin-left: 450px;*/
+	position: relative;
+	left: 700px;
+	display: inline;
+
+}
+
+.previous-btn{
+	position: relative;
+	left: 440px;
+	display: inline;
+
+}
+
+.mayla-footer{
+	position: relative;
+	top:auto;
+	height: 50px;
+	background-color: #990000;
+	text-align: center;
+}
+.footer-text{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*padding-right: 250px;*/
+	color: #fff;
+}
+
+#loanAmountInWords, #year{
+	width: 300px;
+}
+
+.guarantee{
+	font-size:25px;
+	/*font-family: arial;*/
+	font-weight:bold;
+	padding-left:50px;
+	padding-right: 50px;
+	text-align:center;
+	color:red;
+	margin-top:50px;
+	}
+
+
+/*==========================================================================
+Responsive Design
+==========================================================================*/
+
+@media all and (min-width: 1500px) {
+  .header_text h1 {
+      color: blue;
+      margin-bottom: 30px;
+      margin-top: 25px;
+      padding-left: 200px;
+      padding-right: 80px;
+      /*margin-left: 100px;*/
+      text-align: center
+    }
+
+    .mayla-logo{
+    	position: relative;
+    	left: 30px;
+    	top: 20px;
+    	/*width: 100px;*/
+    	/*background-image: url(images/logo.png);*/
+    	}
+
+    .logo-img{
+    	position: relative;
+    	padding-left: 55px;
+    }
+
+    .language{
+    	margin-left: 45px;
+    }
+}
+
+@media all and (max-width: 1366px) and (min-width: 768px) {
+	.li:hover{
+		background-color: #ffae00;
+		color: #000 !important;
+		padding-left: 40px;
+		margin-left: -40px;
+		
+	}
+  .header_text h1 {
+        color: blue;
+        margin-bottom: 30px;
+        margin-top: 25px;
+        padding-left: 120px;
+        padding-right: 80px;
+        text-align: center
+      }
+
+       .logosImg{
+		width: 263px;
+		left: 500px;
+		top: -80px;
+	}
+
+      .mayla-logo{
+      	position: relative;
+      	left: 30px;
+      	top: 20px;
+      	/*width: 100px;*/
+      	/*background-image: url(images/logo.png);*/
+      	}
+
+      .logo-img{
+      	position: relative;
+      	padding-left:-10px;
+      }
+      .language{
+      	margin-left: 5px;
+      }
+
+      .alignTable{
+		margin-right: 350px;
+	  }
+
+	.next-btn{
+	/*margin-left: 450px;*/
+	position: relative;
+	left: 525px;
+	display: inline;
+	}
+
+	.guarantee{
+		font-size:22px;
+		font-weight:bold;
+		padding-left:50px;
+		padding-right: 50px;
+		text-align:center;
+		color:red;
+		margin-top:50px;
+		}
+	
+	.mayla_li:hover	{
+		background-color:yellow;
+	}
+
+	.middleAlign{
+		margin-right: 292px;
+	}
+
+
+	.ui-datepicker select{
+		font-size: 12px !important;
+		background: #fff !important;
+
+	}
+
+
+
+}
+
+
+

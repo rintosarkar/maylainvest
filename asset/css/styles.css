@@ -1,0 +1,26 @@
+
+.blinking{
+    -webkit-animation: blink 2s infinite;
+    -moz-animation: blink 2s infinite;    
+    animation: blink 2s infinite;
+}
+
+@-webkit-keyframes blink{
+
+    0%{ opacity:0;}
+    100%{opacity:1;}
+}
+
+@-moz-keyframes blink{
+    
+    0%{ opacity:0;}
+    100%{opacity:1;}
+
+}
+        
+@keyframes blink{
+
+    0%{ opacity:0;}
+    100%{opacity:1;}
+
+}

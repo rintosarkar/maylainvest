@@ -1,0 +1,28 @@
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  move_uploaded_file(upload/05592426_10.jpg): failed to open stream: No such file or directory in /home/maylainv/public_html/mayla/en/upload.php on line 31
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpPVDMxy' to 'upload/05592426_10.jpg' in /home/maylainv/public_html/mayla/en/upload.php on line 31
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  move_uploaded_file(upload/05592426_10.jpg): failed to open stream: No such file or directory in /home/maylainv/public_html/mayla/en/upload.php on line 31
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpllmf77' to 'upload/05592426_10.jpg' in /home/maylainv/public_html/mayla/en/upload.php on line 31
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  move_uploaded_file(upload/05592426_10.jpg): failed to open stream: No such file or directory in /home/maylainv/public_html/mayla/en/upload.php on line 31
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpLUBIGH' to 'upload/05592426_10.jpg' in /home/maylainv/public_html/mayla/en/upload.php on line 31
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fopen(upload/05592426_10.jpg): failed to open stream: No such file or directory in /home/maylainv/public_html/mayla/en/upload.php on line 63
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  filesize(): stat failed for upload/05592426_10.jpg in /home/maylainv/public_html/mayla/en/upload.php on line 64
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/maylainv/public_html/mayla/en/upload.php on line 64
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/maylainv/public_html/mayla/en/upload.php on line 65
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fopen(upload/05592426_10.jpg): failed to open stream: No such file or directory in /home/maylainv/public_html/mayla/en/upload.php on line 63
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  filesize(): stat failed for upload/05592426_10.jpg in /home/maylainv/public_html/mayla/en/upload.php on line 64
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/maylainv/public_html/mayla/en/upload.php on line 64
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/maylainv/public_html/mayla/en/upload.php on line 65
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fopen(upload/05592426_10.jpg): failed to open stream: No such file or directory in /home/maylainv/public_html/mayla/en/upload.php on line 63
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  filesize(): stat failed for upload/05592426_10.jpg in /home/maylainv/public_html/mayla/en/upload.php on line 64
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/maylainv/public_html/mayla/en/upload.php on line 64
+[27-Jan-2015 04:37:10 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/maylainv/public_html/mayla/en/upload.php on line 65
+[28-Jan-2015 23:59:23 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/maylainvest/public_html/mayla/en/upload.php on line 46
+[29-Jan-2015 00:38:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$amountVal' (T_VARIABLE) in /home/maylainvest/public_html/mayla/en/upload.php on line 107
+[29-Jan-2015 00:39:22 America/Chicago] PHP Parse error:  syntax error, unexpected '$amountVal' (T_VARIABLE) in /home/maylainvest/public_html/mayla/en/upload.php on line 107
+[29-Jan-2015 01:14:56 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/maylainvest/public_html/mayla/en/upload.php on line 122
+[29-Jan-2015 02:15:39 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/maylainvest/public_html/mayla/en/upload.php on line 49
+[29-Jan-2015 04:40:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/maylainvest/public_html/mayla/en/upload.php:389) in /home/maylainvest/public_html/mayla/en/upload.php on line 390
+[29-Jan-2015 04:42:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/maylainvest/public_html/mayla/en/upload.php:389) in /home/maylainvest/public_html/mayla/en/upload.php on line 390
+[29-Jan-2015 05:07:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'Wrong' (T_STRING) in /home/maylainvest/public_html/mayla/en/upload.php on line 573
+[01-Feb-2015 01:43:35 America/Chicago] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home/maylainvest/public_html/mayla/en/upload.php on line 279
+[01-Feb-2015 01:43:35 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpdHQ3ob' to 'upload/' in /home/maylainvest/public_html/mayla/en/upload.php on line 279
